@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: black;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    margin-left: 20%;
+}
+
+.center {
+    margin: 15px 0px 0px 10px !important;
+}
+
+.btn_NAV {
+    margin: auto 0px auto 50%;
+}
+
+.btn_NAV button:focus {
+    background-color: hsl(0, 94%, 66%);
+    color: #FFFFFF;
+}
+
+.cerrar {
+    filter: invert(100%);
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.container-1 div {
+    width: 50%;
+    margin-left: 10rem;
+}
+
+.container-1 p {
+    width: 100%;
+    color: hsl(229, 8%, 60%);
+}
+
+.img1 {
+    border-radius: 0px 0px 10px 100px;
+    box-shadow: 150px 90px 0px hsl(231, 69%, 60%);
+    margin-right: 100px;
+    width: 50%;
+    height: 15rem;
+}
+
+.img1 img {
+    width: 120.5%;
+    height: 120%;
+}
+
+.container-1 button:focus {
+    background-color: hsl(231, 69%, 60%);
+    color: #FFFFFF;
+}
+
+.sectFeactures {
+    margin: 150px 400px 100px 400px;
+    text-align: center;
+}
+
+.sectFeactures div {
+    width: 100%;
+}
+
+.sectFeactures p {
+    color: hsl(229, 8%, 60%);
+
+}
+
+.sectFeactures section {
+    width: 100%;
+}
+
+.list {
+    padding: 0 !important;
+    border-bottom: hsl(229, 8%, 60%) 1px solid;
+}
+
+.list-group {
+    width: 33.3%;
+}
+
+.li:hover {
+    border-bottom: hsl(0, 94%, 66%) 4px solid;
+    cursor: pointer;
+}
+
+.div2 {
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.img2 {
+    border-radius: 0px 0px 100px 0px;
+    box-shadow: -100px 90px 0px hsl(231, 69%, 60%);
+    margin-left: 100px;
+    width: 50%;
+    height: 15rem;
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.divSecundario1 {
+    width: 50%;
+    margin: auto 15%;
+}
+
+.divSecundario1 p {
+    color: hsl(229, 8%, 60%);
+}
+
+.divSecundario1 button:focus {
+    background-color: hsl(231, 69%, 60%);
+    color: #FFFFFF;
+}
+
+.secDownload {
+    text-align: center;
+}
+
+.secDownload div {
+    width: 100%;
+}
+
+.secDownload div p {
+    margin: 0 30% 50px 30%;
+    color: hsl(229, 8%, 60%);
+}
+
+.DownloadExtencion {
+    display: grid;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.extension2 {
+    margin-top: 15%;
+}
+
+.extension3 {
+    grid-column: 3;
+    margin-top: 30%;
+}
+
+.exten {
+    border-radius: 10px;
+    box-shadow: 0px 30px 30px 10px hsla(229, 8%, 60%, 0.147);
+}
+
+.exten section {
+    border-top: dashed 2px hsla(229, 8%, 60%, 0.206);
+}
+
+.exten button {
+    border: none;
+    background-color: hsl(231, 69%, 60%);
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+.exten button:hover {
+    color: #FFFFFF;
+
+}
+
+.exten button:focus {
+    border: 5px solid hsl(231, 69%, 60%) !important;
+    color: hsl(231, 69%, 60%);
+    background-color: #FFFFFF;
+}
+
+.exten h4 {
+    color: hsl(229, 8%, 60%);
+    font-size: 14px;
+}
+
+.secQuestions {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.secQuestions li {
+    text-align: start;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+.secQuestions li:hover {
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+
+.secQuestions li a:focus {
+    filter: hue-rotate(110deg);
+    transform: rotate(180deg);
+}
+
+.secQuestions li h3 {
+    width: 90%;
+    font-size: 20px;
+}
+
+.secQuestions li div {
+    width: 10%;
+}
+
+.secQuestions a {
+    margin: auto;
+    width: 24px;
+    height: 16px;
+}
+
+.secQuestions img {
+    width: 100%;
+    height: 100%;
+}
+
+.secQuestions button {
+    margin-top: 30px;
+}
+
+.secQuestions button:focus {
+    border: 5px solid hsl(231, 69%, 60%) !important;
+    background-color: hsl(231, 69%, 60%);
+    color: #FFFFFF;
+}
+
+.secQuestions p {
+    color: hsl(229, 8%, 60%);
+}
+
+.secStay {
+    background-color: hsl(231, 69%, 60%);
+    color: #FFFFFF;
+    text-align: center;
+    height: 18rem;
+    margin-top: 30px;
+}
+
+.secStay p {
+    padding-top: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.secStay .tituForm {
+    width: 25%;
+    margin: 20px auto;
+}
+
+.footer {
+    background-color: hsl(229, 31%, 21%);
+    color: #FFFFFF;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.footer section {
+    margin: auto 15%;
+}
+
+.footer ul {
+    margin: auto 0px;
+}
+
+.redesSociales {
+    margin: auto 50px auto 0px;
+    float: right;
+}
+
+.redesSociales img {
+    margin: 0px 5px;
+}
+
+@media (min-width: 992px) {
+    .btn_NAV {
+        margin: auto 0px auto 35%;
+    }
+
+    .container-1 div {
+        width: 100%;
+        margin-left: 6rem;
+    }
+
+    .sectFeactures {
+        margin: 150px 250px 100px 250px;
+    }
+
+    .divSecundario1 {
+        margin: auto 10%;
+    }
+
+    .secQuestions {
+        width: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 14px;
+    }
+
+    .btnHamburguesa {
+        margin: auto 0px auto 30%;
+    }
+
+    .menuHamburguesa {
+        background-color: hsla(229, 31%, 21%, 0.891);
+    }
+
+    .menuHamburguesa ul {
+        margin: 0px;
+    }
+
+    .menuHamburguesa button {
+        color: #FFFFFF;
+
+    }
+
+    .container-1 div {
+        width: 50%;
+        margin-left: 3rem;
+    }
+
+    .container-1 button {
+        width: 8rem;
+        font-size: 12px;
+    }
+
+    .sectFeactures {
+        margin: 150px 100px 100px 100px;
+    }
+
+    .divSecundario1 {
+        margin: auto 7%;
+    }
+
+    .secDownload div p {
+        margin: 0 20% 50px 20%;
+    }
+
+    .secQuestions {
+        width: 70%;
+    }
+
+    .secStay .tituForm {
+        width: 40%;
+    }
+}
